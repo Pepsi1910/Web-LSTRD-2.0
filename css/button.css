@@ -1,0 +1,601 @@
+.logo {
+    position: absolute;
+    width: 5.5vw;
+    height: 5vw;
+    left: 8vw;
+    text-align: center;
+    color: #fff;
+    line-height: 4.75vw;
+    font-size: 1.5vw;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+.backguy {
+    position: absolute;
+    left: 55vw;
+    top: 3vw;
+    width: 33vw;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0vw;
+    padding: 0vw;
+    position: absolute;
+    width: 50vw;
+    height: 5vw;
+    left: 20vw;
+    line-height: 2vw;
+}
+
+.menu2 {
+    position: absolute;
+    top: 13.5vw;
+    left: 30vw;
+}
+
+.menuitem {
+    color: #fff;
+    float: left;
+    margin: 1.5vw;
+    font-family: 'Montserrat';
+    border-bottom: 0.1vw solid transparent;
+    height: 1.5vw;
+    font-size: 0.8vw;
+}
+
+.right {
+    right: 30000vw;
+}
+
+.maintext {
+    position: absolute;
+    width: 40vw;
+    height: 22vw;
+    left: 22vw;
+    top: 17.7vw;
+    line-height: 2vw;
+}
+
+.title {
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+    width: 40vw;
+}
+
+.description {
+    color: #fff;
+    font-family: 'Montserrat';
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+    font-size: 0.75vw;
+    width: 36vw;
+    position: absolute;
+    top: 4vw;
+}
+
+.maintext2 {
+    position: absolute;
+    width: 60vw;
+    height: 22vw;
+    left: 6vw;
+    top: -4vw;
+    text-align: center;
+}
+
+.title2 {
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+}
+
+.description2 {
+    color: #fff;
+    font-family: 'Montserrat';
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+    font-size: 0.80vw;
+}
+
+.button1 {
+    color: #fff;
+    position: absolute;
+    font-size: 1vw;
+    font-family: 'Montserrat';
+    background: #3ca918;
+    padding: 1vw;
+    width: 8vw;
+    text-align: center;
+    height: 1vw;
+    line-height: 1.1vw;
+    top: 14vw;
+}
+
+.bar {
+    position: absolute;
+    bottom: 0vw;
+    left: 0vw;
+    right: 0vw;
+    height: 13vw;
+}
+
+.sec1 {
+    float: left;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0vw;
+    width: 25vw;
+    height: 100%;
+    box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+.sec1time {
+    color: #3ca918;
+    font-size: 2vw;
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+    font-family: 'Montserrat';
+}
+
+.sec1title {
+    color: #fff;
+    font-size: 1.5vw;
+    position: absolute;
+    left: 2vw;
+    top: 5vw;
+    font-family: 'Montserrat';
+}
+
+.sec1subtitle {
+    color: #a0a0a052;
+    font-size: 0.75vw;
+    position: absolute;
+    left: 2vw;
+    top: 7vw;
+    width: 11vw;
+    line-height: 1.5vw;
+    font-family: 'Montserrat';
+}
+
+.sec2 {
+    float: left;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 25vw;
+    width: 25vw;
+    height: 100%;
+    box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+.sectitle {
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 1vw;
+    left: 2vw;
+    top: 2vw;
+}
+
+.secsubtitle {
+    position: absolute;
+    color: #3ca918;
+    font-family: 'Montserrat';
+    font-size: 1.5vw;
+    left: 2vw;
+    top: 3.25vw;
+}
+
+.secslots {
+    position: absolute;
+    color: #b3b3b3d9;
+    font-size: 0.7vw;
+    left: 2vw;
+    top: 5.25vw;
+    font-family: 'Montserrat';
+}
+
+.secip {
+    position: absolute;
+    color: #3ca918;
+    font-family: 'Montserrat';
+    font-size: 1.5vw;
+    left: 2vw;
+    top: 9.25vw;
+}
+
+.secbarfull {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 11.25vw;
+    width: 21vw;
+    height: 0.25vw;
+    left: 2vw;
+}
+
+.secinbar {
+    width: 50%;
+    background: #3ca918;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    height: 100%;
+}
+
+.secbadge {
+    position: absolute;
+    background: #3ca918;
+    width: 5vw;
+    height: 2vw;
+    text-align: center;
+    font-size: 0.75vw;
+    color: #fff;
+    font-family: 'Montserrat';
+    line-height: 2vw;
+    left: 17vw;
+    top: 2vw;
+}
+
+.sec3 {
+    float: left;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 50vw;
+    width: 25vw;
+    height: 100%;
+    box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+.sec4 {
+    float: left;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 75vw;
+    width: 25vw;
+    height: 100%;
+    box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+.green {
+    color: #3ca918 !important;
+}
+
+.pink {
+    color: #c21f4a !important;
+}
+
+.blue {
+    color: #4267b2 !important;
+}
+
+.greenbg {
+    background: #3ca918 !important;
+}
+
+.pinkbg {
+    background: #c21f4a !important;
+}
+
+.bluebg {
+    background: #4267b2 !important;
+}
+
+.grey1 {
+    color: #ffffff3d;
+    font-size: 1vw;
+    position: absolute;
+    top: 9.6vw;
+    left: 8.5vw;
+}
+
+.grey2 {
+    color: #ffffff3d;
+    font-size: 1vw;
+    position: absolute;
+    top: 9.6vw;
+    left: 18.5vw;
+}
+
+.grey3 {
+    color: #ffffff3d;
+    font-size: 1vw;
+    position: absolute;
+    top: 9.6vw;
+    left: 7vw;
+}
+
+.about-title1 {
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 6vw;
+    left: 7vw;
+    transition: 0.5s;
+    border-bottom: 0.2vw solid rgba(0, 0, 0, 0.005);
+}
+
+.about-title2 {
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 6vw;
+    left: 24vw;
+    transition: 0.5s;
+    border-bottom: 0.2vw solid rgba(0, 0, 0, 0.005);
+}
+
+.about-title3 {
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 6vw;
+    left: 37vw;
+    transition: 0.5s;
+    border-bottom: 0.2vw solid rgba(0, 0, 0, 0.005);
+}
+
+.about-title4 {
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 6vw;
+    left: 49vw;
+    transition: 0.5s;
+    border-bottom: 0.2vw solid rgba(0, 0, 0, 0.005);
+}
+
+.intext {
+    position: absolute;
+    right: 0vw;
+}
+
+.maintext form {}
+
+.maintext form p {
+    color: #fff;
+    font-size: 0.75vw;
+    width: 41vw;
+    font-family: 'Montserrat';
+}
+
+.maintext form p input {
+    background: rgba(0, 0, 0, 0.1);
+    border: 0.1vw solid #3ca91869;
+    outline: none;
+    transition: 0.25s;
+    padding: 0.5vw;
+    color: #3ca918;
+    font-family: 'Montserrat';
+    width: 20vw;
+}
+
+.maintext form p input:focus {
+    border: 0.1vw solid #3ca918;
+}
+
+.maintext form p select {
+    background: rgba(0, 0, 0, 0.1);
+    border: 0.1vw solid #3ca91869;
+    outline: none;
+    transition: 0.25s;
+    padding: 0.5vw;
+    color: #3ca918;
+    font-family: 'Montserrat';
+    width: 20vw;
+}
+
+select option {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: #3ca918;
+    color: #fff;
+}
+
+.maintext form p select:focus {
+    border: 0.1vw solid #3ca918;
+}
+
+.maintext form p textarea {
+    background: rgba(0, 0, 0, 0.1);
+    border: 0.1vw solid #3ca91869;
+    outline: none;
+    transition: 0.25s;
+    padding: 0.5vw;
+    color: #3ca918;
+    font-family: 'Montserrat';
+    resize: none;
+    width: 20vw;
+    height: 6vw;
+}
+
+.maintext form p textarea:focus {
+    border: 0.1vw solid #3ca918;
+}
+
+.maintext form p input[type="submit"] {
+    background: #3ca918;
+    color: #fff;
+    width: 8vw;
+    position: absolute;
+    left: 0vw;
+    top: 28vw;
+}
+
+
+/* Change Autocomplete styles in Chrome*/
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #3ca918;
+    -webkit-box-shadow: 0 0 0px 100vw transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    font-family: 'Montserrat';
+}
+
+.dev {
+    position: absolute;
+    top: 0vw;
+    left: 23vw;
+}
+
+.sup {
+    position: absolute;
+    top: 0vw;
+    left: 23vw;
+}
+
+.kon {
+    position: absolute;
+    top: 0vw;
+    left: 23vw;
+}
+
+.son {
+    position: absolute;
+    top: 0vw;
+    left: 23vw;
+}
+
+.button2 {
+    position: absolute;
+    top: 25vw;
+    left: 72.5vw;
+    transform: translate(-50%, -50%);
+    background: #3ca918;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 0.75vw;
+    font-weight: bold;
+    padding: 0.5vw;
+    width: 11vw;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button2 span::after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: -0.5px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button2:hover span {
+    padding-right: 25px;
+}
+
+.button2:hover span::after {
+    opacity: 1;
+    right: 0px;
+}
+
+.button3 {
+    position: absolute;
+    top: 39vw;
+    left: 67vw;
+    transform: translate(-50%, -50%);
+    background: #3ca918;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 0.75vw;
+    font-weight: bold;
+    padding: 0.5vw;
+    width: 8vw;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button3 span::after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button3:hover span {
+    padding-right: 25px;
+}
+
+.button3:hover span::after {
+    opacity: 1;
+    right: 0px;
+}
+
+.button4 {
+    position: absolute;
+    top: 24.7vw;
+    left: -18vw;
+    transform: translate(-50%, -50%);
+    background: #3ca918;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 0.75vw;
+    font-weight: bold;
+    padding: 0.2vw;
+    width: 8vw;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button4 span::after {
+    content: "\00AB";
+    position: absolute;
+    opacity: 0;
+    top: -1.2px;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.button4:hover span {
+    padding-left: 25px;
+}
+
+.button4:hover span::after {
+    opacity: 1;
+    left: 0px;
+}
